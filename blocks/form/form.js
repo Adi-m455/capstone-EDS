@@ -2,7 +2,7 @@ export async function decorate(block) {
   const formAnchor = block.querySelector('a[href$=".json"]');
   const formURL = formAnchor
     ? formAnchor.href
-    : "https://main--capstone-eds--naari1295.aem.page/registration-form.json";
+    : "https://main--capstone-eds--adi-m455.aem.page/registration-form.json";
 
   async function fetchFormData(url) {
     try {
